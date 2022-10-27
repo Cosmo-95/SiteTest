@@ -1,0 +1,57 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
+
+img{
+	width: 100%;
+}
+
+.top{
+	background-color: #FFE6DB;
+	width: 100%;
+	margin: 20px 20px 20px 0px;
+}
+
+ul.ddmenu {
+	margin: 0px;
+	padding: 0px 0px 0px 15px;
+	background-color: #FF8D69;
+}
+
+ul.ddmenu li{
+	width: 150px;
+	display: inline-block;
+	list-style-type: none;
+	position: relative;
+}
+
+ul.ddmenu a{
+	background-color: #FF8D69;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+}
+
+ul.ddmenu ul{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+
+ul.ddmenu a:hover{
+	background-color: #FFFAE5;
+	color: #FF8D69;
+}
+
+ul.ddmenu li:hover ul{
+	display: block;
+}
+
+h1{
+	font-family: 'Cherry Swash', cursive;
+	color: #C55052;
+	border-bottom: 6px double #FFFFFF;
+}
